@@ -28,7 +28,7 @@ function Header(props) {
 						<li className={styles["links"]}>
 							<Link to="/">HOME</Link>
 						</li>
-						<li className>
+						<li className={styles["links"]}>
 							<button className={styles["button"]} onClick={backward}>
 								{
 									<img

@@ -3,7 +3,7 @@ function AsideSection({ id, title }) {
 	return (
 		<aside>
 			<p id={id}>
-				<Link to={`$id`}> - {title}</Link>
+				<Link to={`${id}`}> - {title}</Link>
 			</p>
 		</aside>
 	);

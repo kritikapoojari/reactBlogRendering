@@ -47,7 +47,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Demo
 
-To view the live demo of the project click on this link [Link](https://react-blog-rendering-seven.vercel.app/)
+To view the live demo of the project click on this link [Link](https://react-blog-rendering-new.vercel.app/)
 
 ### Code Splitting
 

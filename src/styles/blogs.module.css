@@ -1,0 +1,48 @@
+a {
+	color: white;
+}
+
+a:hover {
+	color: blue;
+}
+
+img {
+	border-radius: 10px;
+	height: 50%;
+	width: 80%;
+}
+
+.blog {
+	height: 50vh;
+	width: 40vh;
+	border-radius: 10px;
+	margin: 2%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-align: center;
+	transition-property: all;
+	transition-delay: 0.2s;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in;
+	/* background-color: white; */
+}
+.blog:hover {
+	transform: scale(1.2);
+	z-index: 2;
+}
+@media (max-width: 768px) {
+	.blog:hover {
+		transform: scale(1.1);
+		z-index: 2;
+	}
+}
+
+@media (max-width: 600px) {
+	.blog {
+		height: 50vh;
+		width: 65vh;
+	}
+}
